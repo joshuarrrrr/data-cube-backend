@@ -1,0 +1,11 @@
+name: data-cube-backend
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - xarray
+  - uvicorn
+  - fastapi
+  - netcdf4
+  - cf_xarray
